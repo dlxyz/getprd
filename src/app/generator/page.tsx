@@ -58,7 +58,7 @@ export default function GeneratorPage() {
       },
       createdAt: new Date(),
       updatedAt: new Date(),
-      status: 'generating'
+      status: 'draft'
     }
     setPrdDocument(initialDocument)
 

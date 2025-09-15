@@ -1,7 +1,7 @@
 'use client'
 
 import React, { useState, useMemo } from 'react'
-import { UserSelection } from '@/types/business'
+import { UserSelection, BusinessType } from '@/types/business'
 import BusinessTypeSelector from './BusinessTypeSelector'
 import ClientTypeSelector from './ClientTypeSelector'
 

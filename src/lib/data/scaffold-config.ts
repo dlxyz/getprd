@@ -13,7 +13,7 @@ export interface ScaffoldCommand {
 export interface ScaffoldConfig {
   techStackId: string;
   commands: ScaffoldCommand[];
-  packageManager: 'npm' | 'yarn' | 'pnpm' | 'bun';
+  packageManager: 'npm' | 'yarn' | 'pnpm' | 'bun' | 'pip' | 'maven' | 'go' | 'flutter';
   nodeVersion?: string;
   additionalTools?: string[];
 }
